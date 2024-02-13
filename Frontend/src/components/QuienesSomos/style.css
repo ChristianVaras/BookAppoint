@@ -1,0 +1,82 @@
+.somos{
+    width: 90vw;
+    height:60rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contimg{ 
+    width:100%;
+    margin-left:20px;
+    background-image: url(../../assets/imgsomos.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    /* border-radius: 20px; */
+}
+.parraimg{
+    display: inline;
+    width:19.6px;
+    font-size: 2rem;
+    
+}
+.cuadroAzul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20rem;
+    height:538px;
+    border-radius: 20px;
+    position: relative;
+    top: 400px;
+    left: 5px;
+    font-size: 1em;
+    background: #1043A5;
+    color: #fff;
+    /* padding: 50px; */
+    
+}
+@media (min-width:560px){
+    .somos{
+        height: 31rem;
+        margin-bottom: 350px;
+    }
+    .contimg{
+        height: 100%;
+    }
+    .cuadroAzul{
+        top: 370px;
+        width: 90%;
+        height: 400px;
+        
+        
+    }
+}
+@media (min-width:800px) {
+    .somos{
+        margin-bottom: 270px;
+    }
+    .contimg{ 
+        height: 100%;
+        background-image: url(../../assets/imgquienes.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;      
+        /* margin-bottom: 200px; */
+    }
+    .cuadroAzul{
+        width: 95%;
+        height: 70%;
+        top: 350px;
+    }
+}
+@media (min-width:1000px){
+    .somos{
+        margin-bottom: 30px;
+    }
+    .cuadroAzul{
+        width: 540px;
+        height: 75%;
+        top: 70px;
+        left: -30px;
+        /* padding: 80px auto; */
+    }
+}
