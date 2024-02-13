@@ -1,0 +1,53 @@
+:root{
+    --primary: #00BFB2;
+    --secondary: #0B2860;
+}
+
+#notice-section{
+    color: var(--secondary);
+}
+#notice-section h2{
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    margin-top: 40px;
+}
+#notice-section h5{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+section div #btn{
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .9px;
+    border: none;
+    width: 381px;
+}
+#link{
+    color: var(--primary);
+    text-decoration: none;
+}
+#notice-section #notice-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    margin-top: 16px;
+}
+#notice-section #notice-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+#notice-section #notice-speciality{
+    background-color:#D8EBE9; 
+    color: var(--primary);
+    margin-top: 24px;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    width: 110px;
+    text-align: center;
+}
