@@ -1,0 +1,55 @@
+img{
+    width: 10%;
+    height: 100%;
+}
+.imgFondo{
+    width: 90%;
+    
+    background-image: url(../../assets/imgEspecialidadesMovil.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.cuadroAzulParrafo{
+    position: relative;
+    top: 23rem;
+    background: #1043A5;
+    margin-bottom:400px;
+    width: 90%;
+    padding: 20px;
+}
+.cuadradoAzul{
+    position:relative;
+    top:-2rem;
+    width: 90%;
+}
+@media(min-width:560px){
+    .imgFondo{
+        background-image: url(../../assets/imgEspecialidadesDesktop.png);
+    }
+    .cuadroAzulParrafo{
+        top: 13rem;
+    }
+    .cuadradoAzul{
+        top: -12rem;
+        margin-bottom: -12rem;
+    }
+}
+@media (min-width:660px){
+    .cuadroAzulParrafo{
+        top: 14rem;
+    }
+    .cuadradoAzul{
+        top: -11rem;
+        margin-bottom: -11rem;
+    }
+}
+@media (min-width:900px){
+    .cuadroAzulParrafo{
+        top: 30rem;
+    }
+    .cuadradoAzul{
+        top: 4rem;
+        margin-bottom: 4rem;
+    }
+} 
