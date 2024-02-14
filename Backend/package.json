@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "name": "BookAppoint",
+=======
+    "name": "BookApoint",
+>>>>>>> refs/remotes/origin/main
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -14,14 +18,24 @@
     },
     "repository": {
         "type": "git",
+<<<<<<< HEAD
         "url": "git+http://github.com/ChristianVaras/BookAppoint.git"
+=======
+        "url": "git+https://github.com/No-Country/.git"
+>>>>>>> refs/remotes/origin/main
     },
     "author": "",
     "license": "ISC",
     "bugs": {
+<<<<<<< HEAD
         "url": "https://github.com/ChristianVaras/BookAppoint/issues"
     },
     "homepage": "/https://github.com/ChristianVaras/BookAppoint#readme",
+=======
+        "url": "https://github.com/No-Country//issues"
+    },
+    "homepage": "https://github.com/No-Country/#readme",
+>>>>>>> refs/remotes/origin/main
     "dependencies": {
         "dotenv": "^16.0.3",
         "express": "^4.18.2",
