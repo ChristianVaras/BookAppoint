@@ -1,0 +1,72 @@
+.base-modal{
+  display: flex;
+  width: 98vw;
+  justify-content: center;
+}
+
+.modal-medicos {
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 300px;
+  /* height: 200px; */
+  display: flex;
+  
+  
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(252, 249, 249);
+  align-items: center;
+  justify-content: center;
+}
+
+.especialidad{
+  margin: 7px;
+  border: solid 1px black;
+  background-color: rgba(11, 40, 96, 1);
+  color: white;
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 8%;
+}
+
+.nombre{
+  color: rgba(11, 40, 96, 1);
+}
+
+.contenido-medicos {
+  padding-left: 5px;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.imagen-modal {
+  border-radius: 50%;
+  /* background-color: blanchedalmond; */
+  border: 1px solid transparent;
+  width: 80px;
+  height: 80px;
+  margin: 10px 5px 10px 10px;
+  /* height: 200px; */
+}
+
+.matricula {
+  font-size: 10px;
+  color: rgba(11, 40, 96, 1);
+ 
+  width: 117px;
+  padding: 2px;
+  text-align: center;
+  display: flex;
+  margin: 0px 7px 7px;
+}
+
+.boton{
+  padding: 4px;
+  margin: 5px;
+  border: solid 1px black;
+  color:rgba(11, 40, 96, 1) ;
+}
