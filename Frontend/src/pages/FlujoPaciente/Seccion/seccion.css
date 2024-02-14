@@ -1,0 +1,53 @@
+
+article{
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.img_perfil{
+    width: 80px;
+    height: 80px;
+}
+.saludo{
+    width: 150px;
+    height: 49px;
+}
+.img_turno{
+    border-radius: 50%;
+    /* background-color: blanchedalmond; */
+    border: 1px solid transparent;
+    width: 80px;
+    height: 80px;
+    margin: 10px 5px 10px 10px;
+}
+
+.usuario{
+    width: 210px;
+    font-size: 17px;
+    color: rgba(11, 40, 96, 1);
+    
+}
+
+.usuario-parrafo{
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafo-foto{
+    font-size: 13px;
+    color: rgba(11, 40, 96, 1);
+}
+
+.turnos-activos{
+    font-size: 17px;
+    color: rgba(11, 40, 96, 1);
+}
+
+.proximas{
+    font-size: 15px;
+    color: rgba(11, 40, 96, 1);
+}
+
+.color-boton{
+    background: #00BFB2!important;
+    color: white!important;
+}
